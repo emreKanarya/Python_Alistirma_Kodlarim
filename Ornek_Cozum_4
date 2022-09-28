@@ -1,0 +1,37 @@
+#Kullanıcıdan y1,y2 yazılı notu girmesi istenir,int kontrölü yapılır.
+
+#Ort=y1,y2 nin ortalaması alınır.
+
+#Eğer Ort 50 den büyük ise
+
+#Çıktı:
+
+#Ortalamanız:{}_______
+
+#değil ise
+
+#çıktı
+
+#Kaldınız,Ortalamanız={}_______
+
+y1=(input("Lütfen 1. yazılı notunuzu giriniz:"))
+
+y2=(input("Lütfen 2. yazılı notunuzu giriniz:"))
+
+if y1.isdigit() and y2.isdigit():
+
+    y1,y2=int(y1),int(y2)
+
+    ort=(y1+y2)/2
+
+    if(ort>=50):
+
+        print("Geçtiniz ortalamanız:{}".format(ort))
+
+    else:
+
+        print("Kaldınız ortalamanız:".format(ort))
+
+else:
+
+    print("Hatalı")
