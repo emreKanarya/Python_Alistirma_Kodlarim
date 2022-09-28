@@ -1,0 +1,5 @@
+#İsim=input("Adınız:") #Kullanıcıdan İsmini girmesini istedim.
+#print("İsminiz: "+ İsim)#print ile girdiği ismi "İsminiz" girdiği isim ne ise onu yazdırmasını istedim.
+
+Sayi=input("Sayı Giriniz: ") #Mutlaka ama mutlaka "=" işareti kullanılmalıdır.Kullanıcı bize bir sayı girecek fakat girilen sayıyı metinsel olarak algılamamsı için "int" yazdım önüne.
+print("Girdiğiniz Sayı: "+ Sayi)
