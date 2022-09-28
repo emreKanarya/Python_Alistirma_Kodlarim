@@ -1,0 +1,24 @@
+#Faktoriyel Hesaplama Programı Yapma
+#Kullanıcıdan faktoriyelini hesaplamasını istediğimiz bir sayı girmesini isteyeceğiz ve o sayının faktoriyel hesabini ekrana yazdıracağız.
+
+
+
+Sayi=int(input("Lütfen Bir Sayı Giriniz: "))
+
+Carpim=1 #Çarpımı 1'e eşitliyoruz çünkü 0 olursa her zaman sonuç 0 çıkıcak bu nedenle 1 yapıyoruz.Herbir sayıyı çarpacağımız için "çarpım" değeri eklemek istiyorum.
+
+if (Sayi==0):
+
+    print("Girdiğiniz Sayının Faktoriyeli 1'dir. ")
+
+elif (Sayi==1):
+    
+    print("Girdiğiniz Sayını Faktoriyeli 1'dir.")
+    
+else:
+    
+    for i in range(1,Sayi+1):
+        
+        Carpim*=i #Burda Çarpımı 1'e eşitlemiştik yukarıda yani daha sonra her i ile çarpımı sonucu çarpımın değeri o sayı oluyor ve i diğer sayılar ile çarpılıp sonuç çıkıyor.
+
+print(Carpim)
