@@ -1,0 +1,26 @@
+vize=(input("Vize notunuzu giriniz:"))
+
+final=(input("final notunuzu giriniz:"))
+
+if vize.isdigit() and final.isdigit():
+
+    vize,final=int(vize),int(final)
+
+    ort=2/5*vize + 3/5*final
+
+    if(ort<50):
+
+        print("""
+        Bütünlemeye Kaldınız
+        
+        Ortalamanız={}""".format(ort))
+
+    else:
+        print("""Geçtiniz
+        
+        Ortalamanız={}""".format(ort))
+
+
+else:
+
+    print("Hatalı giriş")
