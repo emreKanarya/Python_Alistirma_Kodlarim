@@ -1,0 +1,67 @@
+SORU 1:
+
+Kullanıcıdan ki sayı alınız ve bu iki sayıyı karşılaştırınız.
+ÇÖZÜM 1
+a= input("Lütfen bir sayı giriniz:......\t")
+
+b= input("Lütfen bir sayı giriniz:......\t")
+
+if a.isdigit() and b.isdigit(): #Kullanıcı "int"mi girdi hem "a" hemde "b" integirsa.Bu metot da karakter dizinin bir sayısal değer olup olmadığını kontrol ediyor.
+
+    a,b = int(a),int(b) #Dönüştürme işlemini hangi değişken olucağını belirttik.
+
+    if a>b:
+
+        print("{} sayısı {} sayısından büyüktür ".format(a,b))
+
+    if b>a:
+
+        print(" {} sayısı {} sayısından küçüktür.".format(a,b))
+
+    if a==b:
+
+        print("{} sayısı {} sayısına eşittir.".format(a,b))
+
+else:
+
+       print("Hatalı giriş.")
+       
+       
+SO       RU 2:
+
+Kullanıcıdan  vize ve final notları alınır.
+
+not: vize*0.4 +final*0.6
+
+çıktı=
+
+Dönem sonu notunuz:___________
+
+ÇÖZÜM:
+
+vize=int(input("lütfen bir sayı giriniz:)
+
+final=int(input("Lütfen ikinci bir sayı giriniz)
+
+ort=(vize*0.4 +final*0.6
+
+print=("Dönem sonu notunuz:{}".format(ort))
+
+
+ÖRNEK 3:
+
+Kullanıcıdan denklemin katsayıisabit değer bilgileri alınır,a-b
+
+kök=-b/a
+
+1.dereceden katsayı{} ve sabit değer{} olan denklemin kökü_________
+
+ÇÖZÜM 3:
+
+a=int(input(Lütfen denklemin katsayısını giriniz:)
+
+b=("int(input("Lütfen denklemin sabit değerini giriniz:")
+
+kok=-b/a
+
+print="1. dereceden denklemin katsayısı {} ve sabit değeri {} olan denklemin kökü:{}.format(a,b,kok))
