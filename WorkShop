@@ -1,0 +1,15 @@
+Sayi1=50
+
+Sayi2=70
+
+Sayi3=95
+
+if Sayi1>Sayi2 and Sayi1>Sayi3:
+    print("En Büyük Sayi:" + str(Sayi1))
+
+elif Sayi2>Sayi1 and Sayi2>Sayi3:
+    print("En Büyük Sayi:" + str(Sayi2))
+  
+else:
+    print("En Büyük Sayi:" + str(Sayi3))
+print("İşlem Sona Erdi...")
