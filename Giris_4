@@ -1,0 +1,66 @@
+#ÖRNEK 1:
+
+#def mesajyaz():
+
+ #   print("Merhaba")
+
+#mesajyaz()
+
+
+#ÖRNEK 2:
+
+#def toplama(a,b,c):
+
+ #  print("Toplamları:",a+b+c)
+
+#toplama(3,4,5)
+
+#print(toplama)
+
+#ÖRNEK 3:
+
+#def topla(a,b):
+
+ #sonuc=a+b
+
+ #print(sonuc)
+
+#topla(3,4)
+
+#topla(2,9)
+
+#topla(9,1049904)
+
+#ÖRNEK 5
+
+#def topla(a,b):
+
+ # sonuc=a+b
+
+  #print(sonuc)
+
+#topla(2,5)
+
+#ÖRNEK 6:
+
+#def topla(a,b):
+
+ # sonuc=a+b
+
+  #return sonuc
+
+#islem=topla(5,10)
+
+#print(islem)
+
+#ÖRNEK 7:
+
+#def topla(a,b):
+
+ # sonuc=a+b
+
+  #return sonuc
+
+#x=topla(3,5)
+
+#print(x)
