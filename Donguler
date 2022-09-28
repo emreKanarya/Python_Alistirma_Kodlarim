@@ -1,0 +1,26 @@
+SEHİRLER=["İSTANBUL","İZMİR","ANKARA"]
+
+for sehir in SEHİRLER: #Sehirler içinde sehir arayacağız.Sehirler yukarıda öyle tanımlama yaptığımız için yazdım fakat sehir ismini kendi isteğimle farklı bir şey de olabilirdi istediğin.
+    
+    print(sehir)
+   
+for sayi in range(10): #Burda 10 a kadar 0 dan başlayıp yazdırır fakat 10 dahil olmaz.
+    
+       print(sayi)
+       
+for sayi in range(1,10):
+    
+    print(sayi)
+    
+for sayi in range(1,10,2):
+    print(sayi)
+    
+for sayi in range(1,20,3):
+    print(sayi)
+    
+#Birde bizim "for" kadar kullanılmasada "while" döngümüz var.Onu deneyelim şimdide.
+    
+sayac=1
+while sayac<=10:
+    print(sayac)
+    sayac= sayac + 1
