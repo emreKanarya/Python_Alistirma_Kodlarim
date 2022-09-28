@@ -1,0 +1,21 @@
+#Kullanım 1
+İsim= "Numan Emre Kanarya"
+İsim=10
+İsim=11 #Burada en son 11 kullanıldığı için 11 print 11 değerini yazdırır.Python'un dezavantajlarından birisidir.
+print(İsim) #print içine alırken ("") işareti içine almıyoruz.
+
+
+
+#Kullanım 2(İnt,Str,Float)
+
+İsim="Numan Emre Kanarya"
+Sayi=7 #Rakamlarda ("") işareti kullanmıyoruz.
+Tc="12345678910" #Metinsel tanımlama yaptığımız için ("") kullandık.
+floatSayi=7.5 #Rakamlarda ("") işareti kullanmıyoruz.
+durum=False #Bool değişkenidir doğru/yanlış (mantıksal değişken).
+
+print(type(İsim))
+print(type(Sayi))
+print(type(Tc))
+print(type(floatSayi))
+print(type(durum))
