@@ -1,0 +1,19 @@
+#kume1={1,2,3}
+
+#kume2={1,2,3,4,5}
+
+#kapsar=kume2.issuperset(kume1)
+
+#print(kapsar
+
+# İki kümeyi "UNİON(|)" etiketi ile birleştirme işlemi yapabiliriz:
+
+kume1={1,2,3}
+
+kume2={1,2,3,4,5,6}
+
+#kapsar=kume1.union(kume2)
+
+kapsar=kume1|kume2
+
+print(kapsar)
