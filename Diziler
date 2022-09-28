@@ -1,0 +1,32 @@
+URUNLER= ["LAPTOP","MOUSE","KEYBOARD"] #Köşeli parantez ise bu bize "list" olduğunu göstermektedir.
+print(URUNLER)
+print(type(URUNLER))
+URUNLER.append("PHONE") #"append" komutu ile "phone" ürününü eklemiş olduk listemize.
+print(URUNLER)
+
+OGRENCILER1=["NUMAN","BATUHAN","ESAT"]
+OGRENCILER2=["EMRE","MUHAMMED","HAMZA"]
+
+OGRENCILER1= OGRENCILER2 #Bu kısımda artık "OGRENCILER1" içindeki tüm değerleri "OGRENCILER2"'ye eşitledik.Bundan sonra OGRENCILER1 artık yok hükmündedir.
+OGRENCILER2[0]="NUMAN"#Bu kısımda OGRENCILER2 kısmına eşitledik ve artık OGRENCILER2 olduğu için,şimdi içine 0.değeri "NUMAN" olan değeri atacağız.
+print(OGRENCILER2)
+print(OGRENCILER1)
+
+SAYI1=10
+SAYI2=20
+
+SAYI1=SAYI2 #SAYI1 artık SAYI2 oldu yani artık SAYI1 diye bir liste yok.Yani SAYI1'in SAYI2'nin değeri olan "20" oldu.
+
+SAYI2=60 #SAYI2 20'ye eşitti en son fakat burada en son "60" a eşitlendiği için artık SAYI2'nin değeri 60 oldu.
+
+print(SAYI2)
+
+print(SAYI1) #SAYI1'in değeri 20 olmuştu SAYI2'ye eşitlendiği için.Yani değer olarak bize 20 eğerini gösterecek.
+
+İSİM="NUMAN_EMRE_KANARYA"
+print(İSİM[0])
+
+BosListe= [] #Bu şekilde bir listeniz de olabilir "boş" bir şekilde yani.
+print(BosListe)
+
+#DEVOPS NEDİR= Developers Operations'un kısaltılmasıdır.Yani Geliştirme Operasyonlarının kısaltılmasıdır.
