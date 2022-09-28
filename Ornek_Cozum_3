@@ -1,0 +1,50 @@
+Pi adında değişken tanımlayın 3,14 veya 22/7 kullanıcıdan yarıçap ve yükseklik değişkenleri alınır.
+
+Alan=yarıçap*yükseklik*pi
+
+Çıktı=
+
+yaroçapı:_________yükse kliği:__________,olan karenin laanı=_______
+
+ÇÖZÜM:2
+
+pi=3.14
+
+yarıçap=float(input("Lütfen bir değer giriniz:))
+
+yükseklik=float(input("Lütfen ikinci değeri giriniz:))
+
+alan=(yarıçap*yükseklik*pi)
+
+print("""
+
+yarıçap:{}
+yüksekli:{}
+olan karenin
+alanı:{}""".format(yarıçap,yükseklik,alan)
+
+
+
+ÖRNEK 2:
+
+Kullanıcıdan 2 tane kenar(taban yükselkik) değeri alınır.
+
+alan=taban*yükseklik/2
+
+çıktı:
+
+tabanı:____________,tüksekliği:___________ olan üçgenin alanı=birimdir.
+
+
+ÇÖZÜM 2:
+
+Taban=int(input("Lütfen bir değer giriniz:))
+
+yükseklik=int(input("Lütfen ikinci değeri giriniz:))
+
+alan=(taban*yüksekli/2)
+
+print("""
+Tabanı:{}
+Yüksekliği:{},
+Alanı:{}""".format(Taban,YükseklikRound(Alan),3))
