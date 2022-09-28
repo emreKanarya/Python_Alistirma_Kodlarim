@@ -1,0 +1,44 @@
+#Türkce_Karakter={"ç","ğ","ö","ş","ü","ı","Ç","Ğ","Ö","Ş","Ü","İ"}
+
+#İsim=input("Lütfen isim giriniz:")
+
+#if(set(İsim)&set(Türkce_Karakter)): !!!!!!Burda set(isim) ve set(Türkce_Karakter) yazarak omları "KÜME" haline getirdik ve daha sonra "KESİŞİM" olup olmadığına baktık.
+
+ #   print("Girdiğiniz isim Türkçe karakterler barındırıyor.")
+
+#else:
+
+ #   print("İşlemi tamamladınız.")
+
+#kume1={1,23,4,56,78,6,6,5,4,4,5,6,7,8,9,87,65,4}
+
+#kume2={1,23,4,56,10,6,6,5,4,4,5,6,7,8,9,87,65,4}
+
+#İki_kümenin_farkı=kume2-kume1
+
+#print(İki_kümenin_farkı) !!!!! Birinde olup diğerinde olmayan
+
+#kume1={"a","f","d"}
+
+#kume2={"a","b","c","d","e"}
+
+#kesisim=kume1&kume2
+
+#print(kesisim) !!! İki kümede ortak bulunanlar
+
+#kume1={1,2,3}
+
+#kume2={3,4,5}
+
+#ayrikKumeMi=kume2.isdisjoint(kume2)
+
+#print(ayrikKumeMi)#Kesişimi "BOŞ KÜME" olan kesişimi olmayan yani
+
+#kume1={1,2,3}
+
+#kume2={1,2,3,4,5}
+
+#AltKume=kume2.issubset(kume2)
+
+#print(AltKume) !!!! Altküme bir küme diğer kümenin tüm elemanlarını kendisinde barındıyorsa diğeri bunun "ALT KÜMESİ" olur.
+Footer
