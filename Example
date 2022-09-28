@@ -1,0 +1,58 @@
+Örnek 1:
+
+Kullanıcıdan s1 ve s2 sayılarını girmesini isteriz.
+
+Dört işlem yaparak ekrana doğru formatta çıktısı verilir.
+
+Çözüm:
+
+s1= int(input("Bir sayı giriniz:")
+
+s2= int(input("Bir sayı giriniz:")
+
+sonuc=("{} ile {} sayılarının toplama işlemi sonucu:{}".format(s1,s2,(s1+s2))
+
+print(sonuc)
+
+
+
+Örnek 2:Kullanıcıdan doğum tarihini girmesini isteriz.
+
+Yaş hesaplama işlemi yapılarak,ekrana doğru formatta çıktısı verilir.
+
+Çözüm:
+
+a=int(input("Lütfen doğum tarihinizi giriniz:")
+
+print("Şuanki yaşınız:",2020-a)
+
+
+Örnek 3:
+
+Kullanıcıdan sayı simgesi istenir karesi-karekökü-küpü hesaplanır, ekrana çıktısı verilir.
+
+çıktısı:
+
+----- sayısının
+
+karekökü--------
+
+karesi---------
+
+küpü-----------
+
+Çözüm 3:
+
+s=int(input("Bir sayı giriniz:")
+
+print("""
+
+    {} sayısının:
+    
+    karesi{}
+    
+    karekökü{}
+    
+    küpü{}
+    
+""".format(s,s**2,round(s**(1/2),3),s**3)) # Burda "ROUND" değişkeni "FLOAT" ifade kullanırken virgülden sonra kaç harf olucağını belilemek için kullandık burada 3 rakam kullanacağız.
