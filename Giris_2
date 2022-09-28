@@ -1,0 +1,59 @@
+#kume=set() #Küme böyle oluşturuluyor
+
+# ÖRNEK 1:
+
+#kume={1,2,3,4}
+
+#print(type(kume))# "type" etiketi ile neyin elemanı olduğunu öğrenmiş olduk.
+
+#<class "set">
+
+#ÖRNEK 2:
+
+#liste=["mavi","yeşil","kırmızı","turuncu"]
+
+#kume=set(liste)# Bu kısımda "liste" değişkenini kume(set) değişkenine dönüştürdük.
+
+#print(kume)
+
+#ÖRNEK 3:
+
+#kume={1,2,3}
+
+#kume.add(4)#kumeye(set) 4 rakamını ekledik
+
+#print(kume)
+
+#ÖRNEK 4:
+
+#kume={1,2,3}
+
+#kume.remove(2)# "remove" etiketi ile 2'yi kaldırdık sözlükten.
+
+#print(kume)
+
+# ÖRNEK 5:
+
+#kume={1,2,3}
+
+#kume.remove(5) #Sözlükte olmayan bir rakamı girdiğimiz için hata verdi.
+
+#print(kume)
+
+# ÖRNEK 6:
+
+#kume={1,2,3}
+
+#kume.discard(4) # Bu komutun şöyle güzel bir özelliği var istenilen rakam veya kelime "sözlük" içinde yoksa sözlüğü aynı şekilde yazar.
+
+#print(kume)
+
+# ÖRNEK 7:
+
+#kume1={"a","b","c"}
+
+#kume2={"a","b","c","d","e"}
+
+#fark=kume2.difference(kume1) #"kume2" ile "kume1" arasındaki farkı bulduk bu komutla yani kume2 de olup kume1 de olmayanlar.
+
+#print(fark)
