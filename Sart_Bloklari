@@ -1,0 +1,20 @@
+İstenenKredi= 100.000
+Hesap= 6.000
+MinimumOlmasıGerekenHesap= 10.000
+
+if Hesap>=MinimumOlmasıGerekenHesap:
+    print("Kredi Verilebilir.")
+    print("Ödemeler Hesaplandı.")
+    
+elif Hesap>=9.000 and Hesap<=9.499:
+    print("Müdüre Sorulacak!")
+    
+elif Hesap>=9.500 and Hesap<=10.000:
+    print("Kararsızım Müdüre Sorulması Gerekiliyor.")
+    
+elif Hesap>=1.000 or Hesap<=8.999:
+    print("Kredi Alacak Kişinin Güvenilirliği Sorgulanacak.")
+else:
+    print("İşlem Başarısız")
+    
+print("İşlem Sonu")
